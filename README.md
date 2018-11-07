@@ -1,4 +1,6 @@
-**Version 1.0**  *(quelques petites mise à jour seront à prévoir, comme des commentaires en plus etc... la suppression de code qui ne sert à rien ou qui comprend des fonctions béta sera supprimé)*
+Version Actuelle : - **Version 1.1**
+
+Versions anterieures : - **Version 1.0**  *(quelques petites mise à jour seront à prévoir, comme des commentaires en plus etc... la suppression de code qui ne sert à rien ou qui comprend des fonctions béta sera supprimé)*
 
 # 👉  Projet n°3 MacGyver Robin_Mahou
 
