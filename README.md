@@ -58,10 +58,10 @@ Attention ! Vous avez 30 secondes pour ramasser les 3 items et vous rendre sur l
 
 *Bonne chance*
 
-##Requierements :
-Numpy 1.15
-Matplotlib 3.0
-Pygame 1.9.4
+## Requierements :
+- Numpy 1.15
+- Matplotlib 3.0
+- Pygame 1.9.4
 
 
 **R.M**
