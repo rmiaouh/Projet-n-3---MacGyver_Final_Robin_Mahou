@@ -36,8 +36,8 @@ Le programme main est composé de la façon suivante :
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Variables diverses` appelle le programme **Datas.py**
 - ![#42a440](https://placehold.it/15/42a440/000000?text=+) `Generation aléatoire du labyrinthe` appelle les programmes **Maze_Generator_1 & 2**
-- ![#3c4e9f](https://placehold.it/15/3c4e9f/000000?text=+) `Mouvements_joueur` appelle le programme **Display.py**
-- ![#3c4e9f](https://placehold.it/15/3c4e9f/000000?text=+) `Affichage` appelle le programme **Display.py**
+- ![#3d6fc1](https://placehold.it/15/3d6fc1/000000?text=+) `Mouvements_joueur` appelle le programme **Display.py**
+- ![#3d6fc1](https://placehold.it/15/3d6fc1/000000?text=+) `Affichage` appelle le programme **Display.py**
 
 
             
