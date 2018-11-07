@@ -56,7 +56,14 @@ Utilisez les touches multidirectionnelles pour vous déplacer !
 
 Attention ! Vous avez 30 secondes pour ramasser les 3 items et vous rendre sur le boss pour lui casser la figure !
 
+
 *Bonne chance*
+
+
+**R.M**
+
+____________________
+
 
 ## Requierements :
 - Numpy 1.15
@@ -64,6 +71,5 @@ Attention ! Vous avez 30 secondes pour ramasser les 3 items et vous rendre sur l
 - Pygame 1.9.4
 
 
-**R.M**
 
 
