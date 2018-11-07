@@ -2,6 +2,8 @@ import random
 from random import randint
 import sys
 
+
+#Ce fichier permet de transformer semi-aléatoirement (tout en réstant dans une région imposée) des 0 (chemins) en d (départ) ou a (arrivée) ou 1(item1) ou 2(item2) ou 3 item(3)
 def mazeFinal():
     crimefile = open('maze.txt', 'r')
     t = crimefile.read()

@@ -1,7 +1,11 @@
 import random
 from random import randint
 import sys
+
+
+#Ce fichier permet de transformer aléatoirement (tout en réstant dans une région imposée) des 0 (chemins) en d (départ) ou a (arrivée) ou 1(item1) ou 2(item2) ou 3 item(3)
 #MazeGenerator3 permet de mieux randomize que MazeGenerator2, par contre il y'a moins de gestion de l'espace entre les items que dans MazeGenerator2
+
 def mazeFinal():
     crimefile = open('maze.txt', 'r')
     t = crimefile.read()

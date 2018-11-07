@@ -34,6 +34,7 @@ def maze(width=15, height=15, complexity=.75, density=.75):
                     Z[y_, x_] = 1
                     Z[y_ + (y - y_) // 2, x_ + (x - x_) // 2] = 1
                     x, y = x_, y_
+    #On vient récupérer la matrice qui résulte de tout cela
     X=str(Z)
     orig_stdout = sys.stdout
     f = open('config.txt', 'w')
