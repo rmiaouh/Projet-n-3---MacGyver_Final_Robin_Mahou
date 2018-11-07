@@ -27,7 +27,7 @@ Le projet se décompose de la façon suivante :
 3. Le programme **Datas.py** qui conserve les liens vers les images et les sons du jeu.
 4. Les programmes **Maze_Generator_1** & **Maze_Generator_2** qui eux sont utilisés dans la génération d'un labyrinthe aléatoire.
 
-### - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Main.py sa structuration détaillée
+### - ![#efc403](https://placehold.it/15/efc403/000000?text=+) Main.py sa structuration détaillée
 *(cette structuration s'appuie sur l'exemple donné durant le cours "pygame" du site OpenClassRooms)*
 
 Le programme main est composé de la façon suivante : 
