@@ -1,3 +1,6 @@
+Version 0.1
+(la version 1.0 sera disponible le 07/10/2018 dans la soirée) 
+
 # 👉  Projet n°3 MacGyver Robin_Mahou
 
 ## :one: Présentation du projet
