@@ -1,4 +1,4 @@
-Version 0.1
+Version 0.1 - Pour utiliser la version 0.1, lancez le programme **maze_test_1.py**
 (la version 1.0 sera disponible le 07/10/2018 dans la soirée) 
 
 # 👉  Projet n°3 MacGyver Robin_Mahou
