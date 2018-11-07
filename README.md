@@ -1,6 +1,6 @@
 ```diff
 + Version Actuelle : Version 1.1
--  *Maj : Ajout de commentaires - Suppression de code qui ne sert à rien - variables en Pep8*
++  *Maj : Ajout de commentaires - Suppression de code qui ne sert à rien - variables en Pep8*
 ```
 
 
