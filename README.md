@@ -31,7 +31,27 @@ Le projet se décompose de la façon suivante :
 *(cette structuration s'appuie sur l'exemple donné durant le cours "pygame" du site OpenClassRooms)*
 
 Le programme main est composé de la façon suivante : 
-
+ 
+  Création de la fenêtre du jeu
+  Initialisation des variables et appel du programme **Datas.py** qui conserve les configurations/images/sons. 
+    Boucle while de la fenêtre(si on quitte cette boucle, le jeu s'éteint):
+      Boucle while accueil(cette boucle gère le menu accueil):
+        On attend que le joueur choisissent un niveau/start le jeu
+        Quand le joueur décide, on génère aléatoirement un labyrinthe en faisant appel aux programmes **Maze_Generator_1 & 2**
+        On sort de la boucle while accueil
+      Si le choix du niveau == 1 (if):
+        Boucle while du jeu(si on quitte cette boucle, le jeu se termine mais ne s'éteint pas):
+          On met en place le Timer qui compte les secondes
+          On active les mouvements du joueur en utilisant le programme **Display.py**
+          à chaque mouvement du joueur on fait un rafraichissement de l'affiche toujours avec le programme **Display.py**
+          
+          Si (if) le joueur a les 3 items et que le joueur est sur la case du boss:
+            Le joueur gagne + sons "you win"
+            On reset ensuite les variables et on retourne dans la boucle accueil
+          Si (if) le Timer == 0 secondes:
+            Le joueur perd + sons "you loose"
+            On reset ensuite les variables et on retourne dans la boucle accueil
+            
 
 
 
