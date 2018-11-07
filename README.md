@@ -44,7 +44,6 @@ Le programme main est composé de la façon suivante :
           On met en place le Timer qui compte les secondes
           On active les mouvements du joueur en utilisant le programme **Display.py**
           à chaque mouvement du joueur on fait un rafraichissement de l'affiche toujours avec le programme **Display.py**
-          
           Si (if) le joueur a les 3 items et que le joueur est sur la case du boss:
             Le joueur gagne + sons "you win"
             On reset ensuite les variables et on retourne dans la boucle accueil
