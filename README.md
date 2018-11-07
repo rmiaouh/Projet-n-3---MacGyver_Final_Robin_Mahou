@@ -1,5 +1,5 @@
 Version Actuelle : - **Version 1.1**
-- *(quelques petites mise à jour seront à prévoir, comme des commentaires en plus etc... la suppression de code qui ne sert à rien ou qui comprend des fonctions béta sera supprimé)*
+- *Maj : Ajout de commentaires - Suppression de code qui ne sert à rien - variables en Pep8 *
 
 Versions anterieures : - **Version 1.0** , **Version 0.1** 
 
