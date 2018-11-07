@@ -1,8 +1,11 @@
-##### Version Actuelle : - **Version 1.1**
+```diff
++ Version Actuelle : Version 1.1
+```
 -  *Maj : Ajout de commentaires - Suppression de code qui ne sert à rien - variables en Pep8*
 
-###### Versions anterieures : - **Version 1.0** , **Version 0.1** 
-
+```diff
+- Versions anterieures : - **Version 1.0** , **Version 0.1** 
+```
 ___________________________________
 
 
