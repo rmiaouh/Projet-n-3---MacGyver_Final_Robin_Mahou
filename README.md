@@ -31,8 +31,9 @@ Le projet se décompose de la façon suivante :
 *(cette structuration s'appuie sur l'exemple donné durant le cours "pygame" du site OpenClassRooms)*
 
 Le programme main est composé de la façon suivante : 
- 
-![Structure du projet(http://image.noelshack.com/fichiers/2018/45/3/1541584075-projet3ocr2.png)
+
+![Structure du projet](http://image.noelshack.com/fichiers/2018/45/3/1541584075-projet3ocr2.png)
+
             
 
 
