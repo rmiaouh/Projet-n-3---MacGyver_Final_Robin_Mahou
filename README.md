@@ -44,7 +44,7 @@ Le programme main est composé de la façon suivante :
 # 👉 Lancez-vous !
 
 Lancez le programme **Main.py** !
-*Vous arriverez sur l'écran d'accueil*
+*Vous arriverez sur l'écran d'accueil du jeu*
 
 Appuyez sur la touche **F1** !
 *La partie se lance*
