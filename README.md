@@ -1,6 +1,6 @@
-# Projet n°3 MacGyver_Final_Robin_Mahou
+# 👉  Projet n°3 MacGyver_Final_Robin_Mahou
 
-## Présentation du projet
+## :one: Présentation du projet
 
 L'objectif de ce projet était de réaliser un labyrinthe avec les fonctionnalités suivantes :
 
@@ -16,7 +16,7 @@ L'objectif de ce projet était de réaliser un labyrinthe avec les fonctionnalit
 __________________________________
 
 
-## Structuration du projet
+## :two: Structuration du projet
 
 Le projet se décompose de la façon suivante :
 
@@ -41,7 +41,7 @@ Le programme main est composé de la façon suivante :
 
 
             
-# Lancez-vous !
+# 👉 Lancez-vous !
 
 Lancez le programme **Main.py** !
 *Vous arriverez sur l'écran d'accueil*
