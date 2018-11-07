@@ -34,6 +34,12 @@ Le programme main est composé de la façon suivante :
 
 ![Structure du projet](http://image.noelshack.com/fichiers/2018/45/3/1541584075-projet3ocr2.png)
 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Variables diverses` appelle le programme **Datas.py**
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Generation aléatoire du labyrinthe` appelle les programmes **Maze_Generator_1 & 2**
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Mouvements_joueur` appelle le programme **Display.py**
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Affichage` appelle le programme **Display.py**
+
+
             
 
 
