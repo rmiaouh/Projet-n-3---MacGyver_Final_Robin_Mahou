@@ -1,4 +1,4 @@
-# Projet-n-3---MacGyver_Final_Robin_Mahou
+# Projet n°3 MacGyver_Final_Robin_Mahou
 
 ## Présentation du projet
 
@@ -10,8 +10,22 @@ L'objectif de ce projet était de réaliser un labyrinthe avec les fonctionnalit
 - [x] La fenêtre du jeu sera un carré pouvant afficher 15 sprites sur la longueur.
 - [x] MacGyver devra donc se déplacer de case en case, avec 15 cases sur la longueur de la fenêtre !
 - [x] Il récupèrera un objet simplement en se déplaçant dessus.
-- [x] Le programme s'arrête uniquement si MacGyver a bien récupéré tous les objets et trouvé la sortie du labyrinthe. S'il n'a pas tous les objets et qu'il se présente devant le garde, il meurt (la vie est cruelle pour les héros). 
+- [x] Le programme s'arrête uniquement si MacGyver a bien récupéré tous les objets et trouvé la sortie du labyrinthe. S'il n'a pas tous les objets et qu'il se présente devant le garde, il meurt (la vie est cruelle pour les héros).
 - [x] Le programme sera standalone, c'est-à-dire qu'il pourra être exécuté sur n'importe quel ordinateur.
 
+__________________________________
 
+
+## Structuration du projet
+
+Le projet se décompose de la façon suivante :
+
+![Structure du projet](http://image.noelshack.com/fichiers/2018/45/3/1541582209-projet3ocr.png)
+
+1. Le programme **Main.py** qui est le programme principale appellant les programmes secondaires. 
+2. Le programme **Display.py** qui contient toutes les fonctions *d'affichage/rafraichissement des images* du jeu ainsi que les mouvements du joueur.
+3. Le programme **Datas.py** qui conserve les liens vers les images et les sons du jeu.
+4. Les programmes **Maze_Generator_1** & **Maze_Generator_2** qui eux sont utilisés dans la génération d'un labyrinthe aléatoire.
+
+### Main.py sa structuration détaillée 
 
