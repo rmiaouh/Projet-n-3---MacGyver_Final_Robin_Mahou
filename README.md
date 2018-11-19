@@ -1,7 +1,6 @@
 ```diff
 + Version Actuelle : Version 1.2
 ```
-- Maj : Pep8, Suppression de MazeGenerator_1.py et de MazeGenerator_2.py, ajout de MazeGenerator_0, Reduction du code du fichier main.py ( de 320 lignes à 190), Réduction du code du fichier display.py et amélioration de la logique.
 
 
 
