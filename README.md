@@ -1,5 +1,5 @@
 ```diff
-+ Version Actuelle : Version 1.2
++ Version Actuelle : Version 1.2 (Maj : Grosse Reduction du Code + Amélioration de la logique + pep8)
 ```
 
 
