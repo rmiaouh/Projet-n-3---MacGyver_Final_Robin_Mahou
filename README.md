@@ -37,7 +37,7 @@ Le projet se décompose de la façon suivante :
 1. Le programme **Main.py** qui est le programme principale appellant les programmes secondaires. 
 2. Le programme **Display.py** qui contient toutes les fonctions *d'affichage/rafraichissement des images* du jeu ainsi que les mouvements du joueur.
 3. Le programme **Datas.py** qui conserve les liens vers les images et les sons du jeu.
-4. Les programmes **Maze_Generator_1** & **Maze_Generator_2** qui eux sont utilisés dans la génération d'un labyrinthe aléatoire.
+4. Le programme **Maze_Generator_0** (ex **Maze_Generator_1** & ex **Maze_Generator_2** --> deviennent **Maze_Generator_0** depuis la V1.2) est utilisé dans la génération d'un labyrinthe aléatoire.
 
 ### - ![#efc403](https://placehold.it/15/efc403/000000?text=+) Main.py sa structuration détaillée
 *(cette structuration s'appuie sur l'exemple donné durant le cours "pygame" du site OpenClassRooms)*
@@ -47,7 +47,7 @@ Le programme main est composé de la façon suivante :
 ![Structure du projet](http://image.noelshack.com/fichiers/2018/45/3/1541584075-projet3ocr2.png)
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Variables diverses` appelle le programme **Datas.py**
-- ![#42a440](https://placehold.it/15/42a440/000000?text=+) `Generation aléatoire du labyrinthe` appelle les programmes **Maze_Generator_1 & 2**
+- ![#42a440](https://placehold.it/15/42a440/000000?text=+) `Generation aléatoire du labyrinthe` appelle le programme **Maze_Generator_0**
 - ![#3d6fc1](https://placehold.it/15/3d6fc1/000000?text=+) `Mouvements_joueur` appelle le programme **Display.py**
 - ![#3d6fc1](https://placehold.it/15/3d6fc1/000000?text=+) `Affichage` appelle le programme **Display.py**
 
