@@ -1,4 +1,10 @@
-**Version 1.0**  *(quelques petites mise à jour seront à prévoir, comme des commentaires en plus etc... la suppression de code qui ne sert à rien ou qui comprend des fonctions béta sera supprimé)*
+```diff
++ Version Actuelle : Version 1.1 (Maj : Ajout de commentaires - Suppression de code inutile - variables en Pep8)
+
+- Versions anterieures : - Version 1.0 , Version 0.1 
+```
+___________________________________
+
 
 # 👉  Projet n°3 MacGyver Robin_Mahou
 
