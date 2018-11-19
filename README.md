@@ -75,7 +75,7 @@ Attention ! Vous avez 30 secondes pour ramasser les 3 items et vous rendre sur l
 ____________________
 
 
-## Requierements :
+## Requirements :
 - Numpy 1.15
 - Matplotlib 3.0
 - Pygame 1.9.4
