@@ -21,14 +21,12 @@ def maze(width=15, height=15, complexity=.75, density=.75):
     Z[:, 0] = Z[:, -1] = 1
     # Make aisles
     for i in range(density):
-        x, y = rand(0, shape[1] // 2) * 2, rand(0,
-                                                shape[0] // 2) * 2  # pick a random position
+        x, y = rand(0, shape[1] // 2) * 2, rand(0,shape[0] // 2) * 2  # pick a random position
         Z[y, x] = 1
         for j in range(complexity):
             neighbours = []
             if x > 1:
                 neighbours.append((y, x - 2))
-
             if x < shape[1] - 2:
                 neighbours.append((y, x + 2))
             if y > 1:
@@ -41,7 +39,6 @@ def maze(width=15, height=15, complexity=.75, density=.75):
                     Z[y_, x_] = 1
                     Z[y_ + (y - y_) // 2, x_ + (x - x_) // 2] = 1
                     x, y = x_, y_
-    # On vient récupérer la matrice qui résulte de tout cela
     Z = Z.tolist()
     j = 0
     for i in range(0, width):
@@ -60,7 +57,6 @@ def maze(width=15, height=15, complexity=.75, density=.75):
             rand1 = randint(1, (width)-2)
             rand2 = randint(1, (height)-2)
             if Z[rand1][rand2] == "0":
-
                 if counter == 1:
                     Z[rand1][rand2] = "a"
                     y = False

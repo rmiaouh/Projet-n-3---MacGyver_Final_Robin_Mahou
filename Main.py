@@ -15,9 +15,9 @@ pygame.init()
 
 # fenêtre Pygame // Pygame Window
 fenetre = pygame.display.set_mode((cote_fenetre, cote_fenetre))
-icone = pygame.image.load(image_icone)  # Icone // Icon
+icone = pygame.image.load(IMAGE_ICONE)  # Icone // Icon
 pygame.display.set_icon(icone)  # Titre du jeu // Game Title
-pygame.display.set_caption(titre_fenetre)
+pygame.display.set_caption(TITRE_FENETRE)
 
 # BOUCLE PRINCIPALE // MAIN LOOP
 continuer = 1
@@ -33,16 +33,16 @@ timer = pygame.time.Clock()
 frameRate = 60
 frameCount = 1
 # Musiques & sons utilisés // Sound variables
-sound_item = pygame.mixer.Sound(data_sound_item)
-sound_sword = pygame.mixer.Sound(data_sound_sword)
-sound_musique_0 = pygame.mixer.Sound(data_sound_musique_0)
-sound_gameover = pygame.mixer.Sound(data_sound_gameover)
-sound_rire = pygame.mixer.Sound(data_sound_rire)
-sound_win = pygame.mixer.Sound(data_sound_win)
+sound_item = pygame.mixer.Sound(DATA_SOUND_ITEM)
+sound_sword = pygame.mixer.Sound(DATA_SOUND_SWORD)
+sound_musique_0 = pygame.mixer.Sound(DATA_SOUND_MUSIQUE_0)
+sound_gameover = pygame.mixer.Sound(DATA_SOUND_GAMEOVER)
+sound_rire = pygame.mixer.Sound(DATA_SOUND_RIRE)
+sound_win = pygame.mixer.Sound(DATA_SOUND_WIN)
 
 while continuer:
     # home loading
-    accueil = pygame.image.load(image_accueil).convert()
+    accueil = pygame.image.load(IMAGE_ACCUEIL).convert()
     fenetre.blit(accueil, (0, 0))
     pygame.display.flip()  # Refreshing
     # On remet ces variables à 1 à chaque tour de boucle // each loop we put variables to 0
@@ -76,7 +76,7 @@ while continuer:
 
     if choix != 0:
         # Chargement du fond // background loading
-        fond = pygame.image.load(image_fond).convert()
+        fond = pygame.image.load(IMAGE_FOND).convert()
         niveau = Niveau(choix)  # level generation with the MazeGenerator .txt
         niveau.generer()
         niveau.afficher_tot_1(fenetre, main_item1, main_item2, main_item3)

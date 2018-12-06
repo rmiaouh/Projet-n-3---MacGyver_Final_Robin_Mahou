@@ -7,7 +7,7 @@ from pygame.locals import *
 
 
 class Niveau:
-    """Classe permettant de créer un niveau"""
+    """CLASS LEVEL CREATOR"""
 
     def __init__(self, fichier):
         self.fichier = fichier
@@ -26,17 +26,15 @@ class Niveau:
             self.structure = structure_niveau  # We save the level structure
 
     def afficher_tot_1(self, fenetre, item_1, item_2, item_3):
-        """Méthode permettant d'afficher le niveau en fonction 
-        de la liste de structure renvoyée par generer()"""
-        mur = pygame.image.load(image_mur).convert()  # images loading
-        depart = pygame.image.load(image_depart).convert()
-        arrivee = pygame.image.load(image_arrivee).convert_alpha()
-        item1 = pygame.image.load(image_item1).convert_alpha()
-        item2 = pygame.image.load(image_item2).convert_alpha()
-        item3 = pygame.image.load(image_item3).convert_alpha()
-        item1_sol = pygame.image.load(image_item1_sol).convert_alpha()
-        item2_sol = pygame.image.load(image_item2_sol).convert_alpha()
-        item3_sol = pygame.image.load(image_item3_sol).convert_alpha()
+        mur = pygame.image.load(IMAGE_MUR).convert()  # images loading
+        depart = pygame.image.load(IMAGE_DEPART).convert()
+        arrivee = pygame.image.load(IMAGE_ARRIVEE).convert_alpha()
+        item1 = pygame.image.load(IMAGE_ITEM1).convert_alpha()
+        item2 = pygame.image.load(IMAGE_ITEM2).convert_alpha()
+        item3 = pygame.image.load(IMAGE_ITEM3).convert_alpha()
+        item1_sol = pygame.image.load(IMAGE_ITEM1_SOL).convert_alpha()
+        item2_sol = pygame.image.load(IMAGE_ITEM2_SOL).convert_alpha()
+        item3_sol = pygame.image.load(IMAGE_ITEM3_SOL).convert_alpha()
 
         num_ligne = 0
         for ligne in self.structure:
