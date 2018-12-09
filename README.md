@@ -1,11 +1,11 @@
 ```diff
-+ Version Actuelle : Version 1.2 (Maj : Grosse Reduction du Code + Amélioration de la logique + pep8)
++ Version Actuelle : Version 1.21 (Maj : Grosse Reduction du Code + Amélioration de la logique + pep8)
 ```
 
 
 
 ```diff
-- Versions anterieures : Version 1.1, Version 1.0 , Version 0.1 
+- Versions anterieures : Version 1.2, Version 1.1, Version 1.0 , Version 0.1 
 ```
 ___________________________________
 
