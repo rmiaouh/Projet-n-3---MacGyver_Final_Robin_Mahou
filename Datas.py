@@ -3,7 +3,7 @@
 # Window Parameter // Paramètres de la fenêtre
 nombre_sprite_cote = 15
 taille_sprite = 30
-cote_fenetre = nombre_sprite_cote * taille_sprite
+cote_window = nombre_sprite_cote * taille_sprite
 
 # Window personalisation // Personnalisation de la fenêtre
 TITRE_FENETRE = "MacGyver"
@@ -24,7 +24,7 @@ IMAGE_ITEM3 = "Images/ether.png"
 IMAGE_MUR_NOIR = "Images/carre_noir.png"
 
 # Game sounds // Sons du jeu
-DATA_SOUND_ITEM = "Images/ITEM2.wav"
+DATA_SOUND_ITEM = "Images/item2.wav"
 DATA_SOUND_SWORD = "Images/combatsound.wav"
 DATA_SOUND_MUSIQUE_0 = "Images/musique_0.wav"
 DATA_SOUND_GAMEOVER = "Images/gameover.wav"

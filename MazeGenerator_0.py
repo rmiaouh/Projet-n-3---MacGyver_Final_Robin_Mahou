@@ -21,7 +21,7 @@ def maze(width=15, height=15, complexity=.75, density=.75):
     Z[:, 0] = Z[:, -1] = 1
     # Make aisles
     for i in range(density):
-        x, y = rand(0, shape[1] // 2) * 2, rand(0,shape[0] // 2) * 2  # pick a random position
+        x, y = rand(0, shape[1] // 2) * 2, rand(0, shape[0] // 2) * 2
         Z[y, x] = 1
         for j in range(complexity):
             neighbours = []
@@ -43,17 +43,17 @@ def maze(width=15, height=15, complexity=.75, density=.75):
     j = 0
     for i in range(0, width):
         for j in range(0, height):
-            if Z[i][j] == True:
+            if Z[i][j] is True:
                 Z[i][j] = "m"
             else:
                 Z[i][j] = "0"
     x = True
     y = True
     counter = 0
-    while x == True:
+    while x is True:
         counter += 1
         y = True
-        while y == True:
+        while y is True:
             rand1 = randint(1, (width)-2)
             rand2 = randint(1, (height)-2)
             if Z[rand1][rand2] == "0":
